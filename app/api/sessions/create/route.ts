@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { sql } from "@/lib/db";
-import { userRole, userId, VALID_ROLES, errorResponse } from "@/lib/request";
+import { userRole, userId, errorResponse } from "@/lib/request";
 
 // POST /api/sessions/create
 // Groomer creates or updates a session (a bookable time slot).
